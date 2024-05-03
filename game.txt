@@ -6,6 +6,7 @@ Let's make a game!
 Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgChocoDark.jpg
   stylesheet:stuff/bigBlue.css
+  spritesheet:icons, 48 by 48, https://orteil.dashnet.org/cookieclicker/img/icons.png
 
 Layout
 	use default
@@ -31,3 +32,4 @@ Achievements
     name:Wake and bake
     desc:Bake 1 cookie.
     req:1 perfectCookie:clicks
+    icon:icons[0,5]
