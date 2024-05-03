@@ -58,7 +58,7 @@ Achievements
     icon:icons[1,5]
 
 Upgrades
-	*reinforcedIndexFingerCursor
+	*cursorUpgrade1
 		name: Reinforced index finger
 		desc: The mouse and cursors are twice as efficient. "prod prod"
 		req:1 (cursors)
