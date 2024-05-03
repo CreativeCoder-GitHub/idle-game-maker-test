@@ -1,0 +1,4 @@
+Let's make a game!
+  name:Cookie Clicker: An Idle Game Maker Test
+  author:CreativeCoder
+  desc:A test of Idle Game Maker to see what is possible.
