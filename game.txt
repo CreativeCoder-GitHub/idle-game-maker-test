@@ -88,6 +88,6 @@ Shinies
 		name:Golden Cookie
 		icon:https://orteil.dashnet.org/cookieclicker/img/goldCookie.png
 		frequency:120
-		on click:yield (random(cookies|ps * 120,cookies|ps * 300)) cookies
+		on click:yield (random(cookies:ps * 120,cookies:ps * 300)) cookies
 		movement:growShrink pulse:1 bobVertical:0.5 bobHorizontal:0.5 anywhere
 		class:hasFlares
