@@ -19,6 +19,7 @@ Buttons
   on click:yield 1 cookie
   icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
   no text
+  class:bigButton hasFlares
 
 //Achievements
 //*1click
