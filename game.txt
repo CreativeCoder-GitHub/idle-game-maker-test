@@ -20,7 +20,7 @@ CSS
 Resources
   *cookie
     name:Cookies
-    desc:COOKIES!!!!!!
+    desc:Get as many cookies as you can!
     icon:icons[10,0]
 
 Buttons
