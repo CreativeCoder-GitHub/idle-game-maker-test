@@ -34,6 +34,12 @@ Buttons
   icon class:bigButtonIcon shadowed
   on click:anim icon wobble
 
+Buildings
+	*cursor|cursors
+		name:Cursor
+		desc:Autoclicks once every 10 seconds.
+		on tick:yield 0.1 cookie
+
 Achievements
   *1click
     name:Wake and bake
