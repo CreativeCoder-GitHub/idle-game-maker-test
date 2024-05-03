@@ -42,6 +42,7 @@ Buildings
 		on tick:yield 0.1 cookies
 		cost:15 cookies
                 icon:buildings[0,0]
+		icon class:buildingIconSize
 
 Achievements
   *1click
