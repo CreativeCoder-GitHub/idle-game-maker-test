@@ -9,6 +9,7 @@ Let's make a game!
 Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgChocoDark.jpg
   stylesheet:stuff/bigBlue.css
+
 Resources
   *cookie
     name:Cookies
