@@ -18,6 +18,7 @@ Buttons
   desc:Click for cookies!
   on click:yield 1 cookie
   icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
+  no text
 
 *1click
   name:Wake and bake
