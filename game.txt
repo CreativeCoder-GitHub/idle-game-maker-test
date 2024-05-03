@@ -7,6 +7,7 @@ Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgChocoDark.jpg
   stylesheet:stuff/bigBlue.css
   spritesheet:icons, 48 by 48, https://orteil.dashnet.org/cookieclicker/img/icons.png
+  spritesheet:buildings, 48 by 48, https://orteil.dashnet.org/cookieclicker/img/buildings.png
 
 Layout
 	use default
@@ -40,6 +41,7 @@ Buildings
 		desc:Autoclicks once every 10 seconds.
 		on tick:yield 0.1 cookies
 		cost:15 cookies
+                icon:buildings[0,0]
 
 Achievements
   *1click
