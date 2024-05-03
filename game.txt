@@ -25,7 +25,7 @@ Resources
 
 Buttons
 *perfectCookie
-  name:Cookie
+  name:Big Cookie
   desc:Click for cookies!
   on click:yield 1 cookie
   icon:https://raw.githubusercontent.com/CreativeCoder-GitHub/idle-game-maker-test/main/perfectCookie.png
