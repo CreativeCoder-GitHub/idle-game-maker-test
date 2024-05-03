@@ -29,10 +29,9 @@ Buttons
   desc:Click for cookies!
   on click:yield 1 cookie
   icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
-//  icon class:bigButtonIcon
   no text
   class:bigButton hasFlares
-  icon class:shadowed
+  icon class:shadowed bigButtonIcon
   on click:anim icon wobble
 
 Achievements
