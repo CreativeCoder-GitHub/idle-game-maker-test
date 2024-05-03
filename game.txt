@@ -27,7 +27,7 @@ Buttons
 *perfectCookie
   name:Cookie
   desc:Click for cookies!
-  on click:yield 100 cookie
+  on click:yield 10000000 cookie
   icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
   no text
   class:bigButton hasFlares
@@ -44,5 +44,5 @@ Achievements
   *1000click
     name:Making some dough
     desc:Bake 1000 cookies.
-    req:10 (cookie)
+    req:1000 (cookie)
     icon:icons[1,5]
