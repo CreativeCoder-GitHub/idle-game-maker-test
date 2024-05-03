@@ -17,3 +17,8 @@ Buttons
   name:Cookie
   desc:Click for cookies!
   on click:yield 1 cookie
+
+*1click
+  name:Wake and bake
+  desc:Bake 1 cookie.
+  req:1 perfectCookie:clicks
