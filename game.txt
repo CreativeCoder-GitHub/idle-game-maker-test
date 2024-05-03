@@ -113,4 +113,4 @@ Shinies
 		on click:yield (random(cookies:ps * 120,cookies:ps * 300)) cookies
 		movement:growShrink pulse:1 bobVertical:0.5 bobHorizontal:0.5 anywhere
 		class:hasFlares
-		icon class:shinyIconSize
+		icon class:bigButton
