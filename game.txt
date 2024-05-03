@@ -7,7 +7,7 @@ Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgChocoDark.jpg
   stylesheet:stuff/bigBlue.css
   spritesheet:icons, 48 by 48, https://orteil.dashnet.org/cookieclicker/img/icons.png
-  spritesheet:buildings, 128 by 128, https://orteil.dashnet.org/cookieclicker/img/buildings.png
+  spritesheet:buildings, 140 by 140, https://orteil.dashnet.org/cookieclicker/img/buildings.png
 
 Layout
 	use default
