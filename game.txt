@@ -74,3 +74,11 @@ Upgrades
 		passive:multiply yield of perfectCookie by 2
 		passive:multiply yield of cursors by 2
 		icon:icons[0,1]
+	*cursorUpgrade3
+		name:Ambidextrous
+		desc:The mouse and cursors are twice as efficient. "Look ma, both hands!"
+		req:10 (cursors)
+		cost:10000 cookies
+		passive:multiply yield of perfectCookie by 2
+		passive:multiply yield of cursors by 2
+		icon:icons[0,2]
