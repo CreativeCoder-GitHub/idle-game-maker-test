@@ -1,10 +1,7 @@
 Let's make a game!
-  name:My Totally Original Game
-
-// Let's make a game!
-//  name:Cookie Clicker: An Idle Game Maker Test
-//  author:CreativeCoder
-//  desc:A test of Idle Game Maker to see what is possible.
+  name:Cookie Clicker: An Idle Game Maker Test
+  author:CreativeCoder
+  desc:A test of Idle Game Maker to see what is possible.
 
 Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgChocoDark.jpg
