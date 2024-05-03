@@ -95,7 +95,6 @@ Upgrades
 
 Shinies
 	*goldCookie
-		name:Golden Cookie
 		icon:https://orteil.dashnet.org/cookieclicker/img/goldCookie.png
 		frequency:1
 		on click:yield (random(cookies:ps * 120,cookies:ps * 300)) cookies
