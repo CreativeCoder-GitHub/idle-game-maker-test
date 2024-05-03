@@ -1,0 +1,58 @@
+Let's make a game!
+  name:Cookie Clicker
+  author:CreativeCoder
+  desc:Grow your cookie empire!
+
+Settings
+  background:https://orteil.dashnet.org/cookieclicker/img/bgChocoDark.jpg
+  stylesheet:stuff/bigBlue.css
+  spritesheet:icons, 48 by 48, https://orteil.dashnet.org/cookieclicker/img/icons.png
+  spritesheet:buildings, 64 by 64, https://orteil.dashnet.org/cookieclicker/img/buildings.png
+
+Layout
+	use default
+
+CSS
+	.buildingIconSize{
+		height: 128px;
+		width: 128px;
+	}
+
+Resources
+  *cookie|cookies
+    name:Cookies
+    desc:Get as many cookies as you can!
+    icon:icons[10,0]
+
+Buttons
+*perfectCookie
+  name:Big Cookie
+  desc:Click for cookies!
+  on click:yield 1 cookie
+  icon:https://raw.githubusercontent.com/CreativeCoder-GitHub/idle-game-maker-test/main/perfectCookie.png
+  no text
+  class:bigButton hasFlares
+  icon class:bigButtonIcon shadowed
+  on click:anim icon wobble
+
+Buildings
+	*cursor|cursors
+		name:Cursor|Cursors
+		desc:Autoclicks once every 10 seconds.
+		on tick:yield 0.1 cookies
+		cost:15 cookies
+                icon:buildings[0,0]
+		icon class:buildingIconSize
+
+Achievements
+  *1click
+    name:Wake and bake
+    desc:Bake 1 cookie.
+    req:1 (cookies)
+    icon:icons[0,5]
+
+  *1000click
+    name:Making some dough
+    desc:Bake 1000 cookies.
+    req:1000 (cookies)
+    icon:icons[1,5]
