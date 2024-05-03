@@ -13,7 +13,7 @@ Settings
 Resources
   *cookie
     name:Cookies
-    desc:COOKIES!!!
+    desc:COOKIES!!!!!!
 
 Buttons
 *perfectCookie
