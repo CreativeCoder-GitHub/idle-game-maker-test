@@ -82,7 +82,7 @@ Achievements
 Upgrades
 	*cursorUpgrade1
 		name:Reinforced index finger
-		desc:The mouse and cursors are twice as efficient.<q><i>"prod prod"</i></q>
+		desc:The mouse and cursors are <b>twice</b> as efficient.<q><i>"prod prod"</i></q>
 		req:1 (cursors)
 		cost:100 cookies
 		passive:multiply yield of perfectCookie by 2
@@ -90,7 +90,7 @@ Upgrades
 		icon:icons[0,0]
 	*cursorUpgrade2
 		name:Carpal tunnel prevention cream
-		desc:The mouse and cursors are twice as efficient. <q><i>"it... it hurts to click..."</i></q>
+		desc:The mouse and cursors are <b>twice</b> as efficient. <q><i>"it... it hurts to click..."</i></q>
 		req:1 (cursors)
 		cost:500 cookies
 		passive:multiply yield of perfectCookie by 2
@@ -98,7 +98,7 @@ Upgrades
 		icon:icons[0,1]
 	*cursorUpgrade3
 		name:Ambidextrous
-		desc:The mouse and cursors are twice as efficient. <q><i>"Look ma, both hands!"</i></q>
+		desc:The mouse and cursors are <b>twice</b> as efficient. <q><i>"Look ma, both hands!"</i></q>
 		req:10 (cursors)
 		cost:10000 cookies
 		passive:multiply yield of perfectCookie by 2
