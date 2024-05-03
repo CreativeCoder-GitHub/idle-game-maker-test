@@ -26,7 +26,7 @@ Resources
   *cookie|cookies
     name:Cookies
     desc:Get as many cookies as you can!
-    icon:icons[10,14]
+    icon:icons[10,0]
 
 Buttons
 *perfectCookie
@@ -70,8 +70,14 @@ Achievements
   *1goldenclick
     name:Golden cookie
     desc:Click a golden cookie.
-    req:1 (cookies:ps)
-    icon:icons[0,5]
+    req:7 (goldCookies:clicks)
+    icon:icons[10,14]
+
+  *7goldenclick
+    name:Lucky cooke
+    desc:Click 7 golden cookies.
+    req:7 (goldCookies:clicks)
+    icon:icons[10,14]
 
 Upgrades
 	*cursorUpgrade1
