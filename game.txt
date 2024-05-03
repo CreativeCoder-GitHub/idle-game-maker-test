@@ -108,7 +108,8 @@ Upgrades
 Shinies
 	*goldCookie
 		icon:https://orteil.dashnet.org/cookieclicker/img/goldCookie.png
-		frequency:1
+		frequency:120
+		frequency variation:20
 		on click:yield (random(cookies:ps * 120,cookies:ps * 300)) cookies
 		movement:growShrink pulse:1 bobVertical:0.5 bobHorizontal:0.5 anywhere
 		class:hasFlares
