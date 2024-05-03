@@ -1,1 +1,20 @@
+Let's make a game!
+  name:Cookie Clicker: An Idle Game Maker Test
+  author:CreativeCoder
+  desc:A test of Idle Game Maker to see what is possible.
 
+Settings
+  background:https://orteil.dashnet.org/cookieclicker/img/bgChocoDark.jpg
+  stylesheet:stuff/bigBlue.css
+
+Resources
+  *cookie
+    name:Cookies
+    desc:COOKIES!!!!!!
+
+Buttons
+*perfectCookie
+  name:Cookie
+  desc:Click for cookies!
+  on click:yield 1 cookie
+  show clicks
