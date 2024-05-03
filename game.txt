@@ -18,7 +18,7 @@ CSS
 	}
 
 Resources
-  *cookie
+  *cookie|cookies
     name:Cookies
     desc:Get as many cookies as you can!
     icon:icons[10,0]
@@ -39,6 +39,7 @@ Buildings
 		name:Cursor|Cursors
 		desc:Autoclicks once every 10 seconds.
 		on tick:yield 0.1 cookie
+		cost: 15 cookie
 
 Achievements
   *1click
