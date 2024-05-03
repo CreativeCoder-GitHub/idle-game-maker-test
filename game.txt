@@ -57,6 +57,12 @@ Achievements
     req:1000 (cookies)
     icon:icons[1,5]
 
+  *1cps
+    name:Casual baking
+    desc:Bake 1 cookie per second.
+    req:1 (cookies:ps)
+    icon:icons[0,5]
+
 Upgrades
 	*cursorUpgrade1
 		name:Reinforced index finger
