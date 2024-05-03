@@ -27,7 +27,7 @@ Buttons
 *perfectCookie
   name:Cookie
   desc:Click for cookies!
-  on click:yield 10000000 cookie
+  on click:yield 100 cookie
   icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
   no text
   class:bigButton hasFlares
