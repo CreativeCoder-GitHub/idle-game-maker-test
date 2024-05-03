@@ -66,3 +66,11 @@ Upgrades
 		passive:multiply yield of perfectCookie by 2
 		passive:multiply yield of cursors by 2
 		icon:icons[0,0]
+	*cursorUpgrade2
+		name:Carpal tunnel prevention cream
+		desc:The mouse and cursors are twice as efficient. "it... it hurts to click..."
+		req:1 (cursors)
+		cost:500 cookies
+		passive:multiply yield of perfectCookie by 2
+		passive:multiply yield of cursors by 2
+		icon:icons[0,1]
