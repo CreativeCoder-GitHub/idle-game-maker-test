@@ -15,6 +15,7 @@ Resources
   *cookie
     name:Cookies
     desc:COOKIES!!!!!!
+    icon:icons[10,0]
 
 Buttons
 *perfectCookie
