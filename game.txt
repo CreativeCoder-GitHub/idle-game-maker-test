@@ -1,7 +1,7 @@
 Let's make a game!
-  name:Cookie Clicker: An Idle Game Maker Test
+  name:Cookie Clicker
   author:CreativeCoder
-  desc:A test of Idle Game Maker to see what is possible.
+  desc:Grow your cookie empire!
 
 Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgChocoDark.jpg
@@ -17,4 +17,11 @@ Buttons
   name:Cookie
   desc:Click for cookies!
   on click:yield 1 cookie
-  show clicks
+  icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
+  no text
+
+//Achievements
+//*1click
+//  name:Wake and bake
+//  desc:Bake 1 cookie.
+//  req:1 perfectCookie:clicks
