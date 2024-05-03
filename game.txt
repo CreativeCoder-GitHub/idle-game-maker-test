@@ -7,15 +7,15 @@ Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgChocoDark.jpg
   stylesheet:stuff/bigBlue.css
   spritesheet:icons, 48 by 48, https://orteil.dashnet.org/cookieclicker/img/icons.png
-  spritesheet:buildings, 16 by 16, https://orteil.dashnet.org/cookieclicker/img/buildings.png
+  spritesheet:buildings, 64 by 64, https://orteil.dashnet.org/cookieclicker/img/buildings.png
 
 Layout
 	use default
 
 CSS
 	.buildingIconSize{
-		height: 128px;
-		width: 128px;
+		height: 64px;
+		width: 64px;
 	}
 
 Resources
@@ -82,3 +82,12 @@ Upgrades
 		passive:multiply yield of perfectCookie by 2
 		passive:multiply yield of cursors by 2
 		icon:icons[0,2]
+
+Shinies
+	*goldCookie
+		name:Golden Cookie
+		icon:https://orteil.dashnet.org/cookieclicker/img/goldCookie.png
+		frequency:120
+		on click:yield (random(cookies|ps * 120,cookies|ps * 300)) cookies
+		movement:growShrink pulse:1 bobVertical:0.5 bobHorizontal:0.5 anywhere
+		class:hasFlares
