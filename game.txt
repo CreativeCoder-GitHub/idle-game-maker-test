@@ -45,7 +45,7 @@ Achievements
   *1click
     name:Wake and bake
     desc:Bake 1 cookie.
-    req:1 (cookie)
+    req:1 (cookies)
     icon:icons[0,5]
 
   *1000click
