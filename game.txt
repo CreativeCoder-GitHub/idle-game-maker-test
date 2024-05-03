@@ -39,7 +39,7 @@ Buildings
 		name:Cursor|Cursors
 		desc:Autoclicks once every 10 seconds.
 		on tick:yield 0.1 cookies
-		cost: 15 cookies
+		cost:15 cookies
 
 Achievements
   *1click
