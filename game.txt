@@ -13,9 +13,9 @@ Layout
 	use default
 
 CSS
-	.bigButtonIcon{
-		height: 512px;
-		width: 512px;
+	.buildingIconSize{
+		height: 128px;
+		width: 128px;
 	}
 
 Resources
