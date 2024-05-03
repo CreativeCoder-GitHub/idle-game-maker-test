@@ -70,13 +70,13 @@ Achievements
   *1goldenclick
     name:Golden cookie
     desc:Click a golden cookie.
-    req:7 (goldCookies:clicks)
+    req:7 (goldCookie:clicks)
     icon:icons[10,14]
 
   *7goldenclick
     name:Lucky cooke
     desc:Click 7 golden cookies.
-    req:7 (goldCookies:clicks)
+    req:7 (goldCookie:clicks)
     icon:icons[10,14]
 
 Upgrades
