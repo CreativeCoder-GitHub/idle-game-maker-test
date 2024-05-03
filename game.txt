@@ -20,6 +20,8 @@ Buttons
   icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
   no text
   class:bigButton hasFlares
+  icon class:shadowed
+  on click:anim icon wobble
 
 //Achievements
 //*1click
