@@ -17,4 +17,3 @@ Buttons
   name:Cookie
   desc:Click for cookies!
   on click:yield 1 cookie
-  show clicks
