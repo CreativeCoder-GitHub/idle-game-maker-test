@@ -23,8 +23,8 @@ Buttons
   icon class:shadowed
   on click:anim icon wobble
 
-//Achievements
-//*1click
-//  name:Wake and bake
-//  desc:Bake 1 cookie.
-//  req:1 perfectCookie:clicks
+Achievements
+  *1click
+    name:Wake and bake
+    desc:Bake 1 cookie.
+    req:1 perfectCookie:clicks
