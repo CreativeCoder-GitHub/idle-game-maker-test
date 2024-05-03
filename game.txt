@@ -59,8 +59,8 @@ Achievements
 
 Upgrades
 	*cursorUpgrade1
-		name: Reinforced index finger
-		desc: The mouse and cursors are twice as efficient. "prod prod"
+		name:Reinforced index finger
+		desc:The mouse and cursors are twice as efficient. "prod prod"
 		req:1 (cursors)
 		cost:100 cookies
 		passive:multiply yield of perfectCookie by 2
