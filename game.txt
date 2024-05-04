@@ -49,23 +49,89 @@ Buildings
 		icon class:buildingIconSize
 
 Achievements
-  *1click
+  *baketotal1
     name:Wake and bake
     desc:Bake <b>1 cookie</b>.
-    req:1 (cookies)
+    req:1 (cookies:earned)
     icon:icons[0,5]
 
-  *1000click
+  *baketotal2
     name:Making some dough
-    desc:Bake <b>1000 cookies</b>.
-    req:1000 (cookies)
+    desc:Bake <b>1,000 cookies</b>.
+    req:1000 (cookies:earned)
     icon:icons[1,5]
+
+  *baketotal3
+    name:So baked right now
+    desc:Bake <b>100,000 cookies</b>.
+    req:100000 (cookies:earned)
+    icon:icons[2,5]
+
+ *baketotal4
+    name:Fledgling bakery
+    desc:Bake <b>1 million cookies</b>.
+    req:1000000 (cookies:earned)
+    icon:icons[3,5]
+
+  *baketotal5
+    name:Affluent bakery
+    desc:Bake <b>100 million cookies</b>.
+    req:100000000 (cookies:earned)
+    icon:icons[4,5]
+
+  *baketotal6
+    name:World-famous bakery
+    desc:Bake <b>1 billion cookies</b>.
+    req:1000000000 (cookies:earned)
+    icon:icons[5,5]
+
+  *baketotal7
+    name:Cosmic bakery
+    desc:Bake <b>100 billion cookies</b>.
+    req:100000000000 (cookies:earned)
+    icon:icons[6,5]
 
   *1cps
     name:Casual baking
     desc:Bake <b>1 cookie</b> per second.
     req:1 (cookies:ps)
     icon:icons[0,5]
+
+ *2cps
+    name:Hardcore baking
+    desc:Bake <b>10 cookies</b> per second.
+    req:10 (cookies:ps)
+    icon:icons[1,5]
+
+ *3cps
+    name:Steady tasty stream
+    desc:Bake <b>100 cookies</b> per second.
+    req:100 (cookies:ps)
+    icon:icons[2,5]
+
+  *4cps
+    name:Cookie monster
+    desc:Bake <b>1,000 cookies</b> per second.
+    req:1000 (cookies:ps)
+    icon:icons[3,5]
+
+  *5cps
+    name:Mass producer
+    desc:Bake <b>10,000 cookies</b> per second.
+    req:10000 (cookies:ps)
+    icon:icons[4,5]
+
+  *5cps
+    name:Cookie vortex
+    desc:Bake <b>1 million cookies</b> per second.
+    req:1000000 (cookies:ps)
+    icon:icons[5,5]
+
+ *6cps
+    name:Cookie pulsar
+    desc:Bake <b>10 million cookies</b> per second.
+    req:10000000 (cookies:ps)
+    icon:icons[6,5]
 
   *1goldenclick
     name:Golden cookie
