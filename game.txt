@@ -121,13 +121,13 @@ Achievements
     req:10000 (cookies:ps)
     icon:icons[4,5]
 
-  *5cps
+  *6cps
     name:Cookie vortex
     desc:Bake <b>1 million cookies</b> per second.
     req:1000000 (cookies:ps)
     icon:icons[5,5]
 
- *6cps
+ *7cps
     name:Cookie pulsar
     desc:Bake <b>10 million cookies</b> per second.
     req:10000000 (cookies:ps)
