@@ -91,6 +91,18 @@ Achievements
     req:100000000000 (cookies:earned)
     icon:icons[6,5]
 
+  *1cursor
+    name:Click
+    desc:Have <b>1 cursor</b>.
+    req:1 (cursor)
+    icon:icons[0,0]
+
+  *2cursor
+    name:Double-click
+    desc:Have <b>2 cursors</b>.
+    req:2 (cursor)
+    icon:icons[0,6]
+
   *1cps
     name:Casual baking
     desc:Bake <b>1 cookie</b> per second.
