@@ -42,7 +42,7 @@ Buttons
 Buildings
 	*cursor|cursors
 		name:Cursor|Cursors
-		desc:Autoclicks once every 10 seconds.
+		desc:<q><i>Autoclicks once every 10 seconds.</q></i>
 		on tick:yield 0.1 cookies
 		cost:15 cookies
                 icon:buildings[0,0]
@@ -51,31 +51,31 @@ Buildings
 Achievements
   *1click
     name:Wake and bake
-    desc:Bake 1 cookie.
+    desc:Bake <b>1 cookie</b>.
     req:1 (cookies)
     icon:icons[0,5]
 
   *1000click
     name:Making some dough
-    desc:Bake 1000 cookies.
+    desc:Bake <b>1000 cookies</b>.
     req:1000 (cookies)
     icon:icons[1,5]
 
   *1cps
     name:Casual baking
-    desc:Bake 1 cookie per second.
+    desc:Bake <b>1 cookie</b> per second.
     req:1 (cookies:ps)
     icon:icons[0,5]
 
   *1goldenclick
     name:Golden cookie
-    desc:Click a golden cookie.
+    desc:Click a <b>golden cookie</b>.
     req:7 (goldCookie:clicks)
     icon:icons[10,14]
 
   *7goldenclick
-    name:Lucky cooke
-    desc:Click 7 golden cookies.
+    name:Lucky cookie
+    desc:Click <b>7 golden cookies</b>.
     req:7 (goldCookie:clicks)
     icon:icons[10,14]
 
