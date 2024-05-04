@@ -42,28 +42,28 @@ Buttons
 Buildings
 	*cursor|cursors
 		name:Cursor|Cursors
-		desc:<q><i>Autoclicks once every 10 seconds.</q></i>
+		desc:<q><i>"Autoclicks once every 10 seconds."</q></i>
 		on tick:yield 0.1 cookies
 		cost:15 cookies
                 icon:buildings[0,0]
 		icon class:buildingIconSize
 	*grandma|grandmas
 		name:Grandma|Grandmas
-		desc:<q><i>A nice grandma to bake more cookies.</q></i>
+		desc:<q><i>"A nice grandma to bake more cookies."</q></i>
 		on tick:yield 1 cookie
 		cost:100 cookies
                 icon:buildings[0,1]
 		icon class:buildingIconSize
 	*farm|farms
 		name:Farm|Farms
-		desc:<q><i>Grows cookie plants from cookie seeds.</q></i>
+		desc:<q><i>"Grows cookie plants from cookie seeds."</q></i>
 		on tick:yield 8 cookies
 		cost:1100 cookies
                 icon:buildings[0,3]
 		icon class:buildingIconSize
 	*mine|mines
 		name:Mine|Mines
-		desc:<q><i>Mines out cookie dough and chocolate chips.</q></i>
+		desc:<q><i>"Mines out cookie dough and chocolate chips."</q></i>
 		on tick:yield 10 cookies
 		cost:2000 cookies
                 icon:buildings[0,4]
@@ -203,6 +203,27 @@ Upgrades
 		passive:multiply yield of perfectCookie by 2
 		passive:multiply yield of cursors by 2
 		icon:icons[0,2]
+	*grandmaUpgrade1
+		name:Forwards from grandma
+		desc:Grandmas are <b>twice</b> as efficient. <q><i>"RE:RE:thought you'd get a kick out of this ;))"</i></q>
+		req:1 (grandma)
+		cost:1000 cookies
+		passive:multiply yield of grandmas by 2
+		icon:icons[1,0]
+	*grandmaUpgrade2
+		name:Steel-plated rolling pins
+		desc:Grandmas are <b>twice</b> as efficient. <q><i>"Just what you kneaded"</i></q>
+		req:5 (grandmas)
+		cost:5000 cookies
+		passive:multiply yield of grandmas by 2
+		icon:icons[1,1]
+	*grandmaUpgrade3
+		name:Lubricated dentures
+		desc:Grandmas are <b>twice</b> as efficient. <q><i>"squish"</i></q>
+		req:25 (grandmas)
+		cost:50000 cookies
+		passive:multiply yield of grandmas by 2
+		icon:icons[1,2]
 
 Shinies
 	*goldCookie
