@@ -47,6 +47,27 @@ Buildings
 		cost:15 cookies
                 icon:buildings[0,0]
 		icon class:buildingIconSize
+	*grandma|grandmas
+		name:Grandma|Grandmas
+		desc:<q><i>A nice grandma to bake more cookies.</q></i>
+		on tick:yield 1 cookie
+		cost:100 cookies
+                icon:buildings[0,1]
+		icon class:buildingIconSize
+	*farm|farms
+		name:Farm|Farms
+		desc:<q><i>Grows cookie plants from cookie seeds.</q></i>
+		on tick:yield 8 cookies
+		cost:1100 cookies
+                icon:buildings[0,3]
+		icon class:buildingIconSize
+	*mine|mines
+		name:Mine|Mines
+		desc:<q><i>Mines out cookie dough and chocolate chips.</q></i>
+		on tick:yield 10 cookies
+		cost:2000 cookies
+                icon:buildings[0,4]
+		icon class:buildingIconSize
 
 Achievements
   *baketotal1
