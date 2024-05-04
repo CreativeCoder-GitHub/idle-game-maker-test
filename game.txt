@@ -31,7 +31,7 @@ Resources
     name:Sugar lumps
     desc:Sugar lumps are delicious and may be used as currency for all sorts of things.
     icon:icons[29,14]
-    hide when (cookies:earned) < 1000000000
+    req:(cookies:earned) >= 1000000000
 
 Buttons
 *perfectCookie
