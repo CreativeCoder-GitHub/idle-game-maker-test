@@ -235,8 +235,13 @@ Upgrades
 		cost:1 cookie
 		passive:multiply yield of perfectCookie by 999
 		passive:multiply yield of cursors by 999
-		icon:icons[11,0]
-
+		icon:icons[12,0]
+	*debugUpgrade2
+		name:Elder Ultimate
+		desc:Grandmas are <b>super</b> efficient. <q><i>"A nice grandma only helping the creator of the game."</i></q>
+		cost:1 cookie
+		passive:multiply yield of grandmas by 999
+		icon:icons[10,9]
 Shinies
 	*goldCookie
 		icon:https://orteil.dashnet.org/cookieclicker/img/goldCookie.png
