@@ -229,6 +229,13 @@ Upgrades
 		cost:50000 cookies
 		passive:multiply yield of grandmas by 2
 		icon:icons[1,2]
+	*debugUpgrade1
+		name:Godly Cursor
+		desc:The mouse and cursors are <b>super</b> efficient. <q><i>"A cursor only wieldable by the creator of the game."</i></q>
+		cost:1 cookie
+		passive:multiply yield of perfectCookie by 999
+		passive:multiply yield of cursors by 999
+		icon:icons[11,0]
 
 Shinies
 	*goldCookie
