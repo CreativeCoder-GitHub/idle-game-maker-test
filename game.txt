@@ -38,7 +38,7 @@ CSS
 		height: 96px;
 		width: 96px;
 	}
-	#boxUpgrades{
+	#box-upgrades{
 		top: 43px;
 	}
 
@@ -148,6 +148,12 @@ Achievements
     desc:Have <b>2 cursors</b>.
     req:2 (cursor)
     icon:icons[0,6]
+
+  *3cursor
+    name:Of Mice and Men
+    desc:Have <b>100 cursors</b>.
+    req:100 (cursor)
+    icon:icons[0,1]
 
   *1cps
     name:Casual baking
