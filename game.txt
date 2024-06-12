@@ -89,7 +89,7 @@ Buttons
 	  on click:
 	  	hide :Upgrades:owned
 		show :Upgrades:notOwned
-		anim :glow
+		anim glow
 	  end
 	  no tooltip
 	*showOwnedUpgr
@@ -99,7 +99,7 @@ Buttons
 	  on click:
 	  	show :Upgrades:owned
 		hide :Upgrades:notOwned
-		anim :glow
+		anim glow
 	  end
 	  no tooltip
 
