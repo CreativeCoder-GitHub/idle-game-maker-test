@@ -231,14 +231,14 @@ Upgrades
 		icon:icons[1,2]
 	*debugUpgrade1
 		name:Godly Cursor
-		desc:The mouse and cursors are <b>super</b> efficient. <q><i>"A cursor only wieldable by the creator of the game."</i></q>
+		desc:The mouse and cursors are <b>super</b> efficient. <q><i>"A cursor hand-crafted by the creator of the game."</i></q>
 		cost:1 cookie
 		passive:multiply yield of perfectCookie by 999
 		passive:multiply yield of cursors by 999
 		icon:icons[12,0]
 	*debugUpgrade2
 		name:Elder Ultimate
-		desc:Grandmas are <b>super</b> efficient. <q><i>"A nice grandma only helping the creator of the game."</i></q>
+		desc:Grandmas are <b>super</b> efficient. <q><i>"A nice grandma blessed by the creator of the game to bake more cookies."</i></q>
 		cost:1 cookie
 		passive:multiply yield of grandmas by 999
 		icon:icons[10,9]
