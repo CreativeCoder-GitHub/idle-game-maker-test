@@ -18,7 +18,7 @@ Layout
 	  *buttons
 	    contains:Buttons
 	*store
-	  contains:buildings, upgrades
+	  contains:buildings, upgrades, upgradeButtons
 	  *buildings
 	    contains:BulkDisplay, Buildings
 	    header:Buildings
@@ -28,6 +28,8 @@ Layout
 	    header:Upgrades
 	    costs:hide
 	    names:hide
+	  *upgradeButtons
+	    contains:tag:upgradeSwitcher
 
 CSS
 	.buildingIconSize{
@@ -40,6 +42,23 @@ CSS
 	}
 	#box-upgrades{
 		top: 43px;
+	}
+	.box-header, .box-footer{
+		padding: 8px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	#box-upgradeButtons{
+		width: 50%;
+		left: 50%;
+		height: 43px;
+	}
+	.upgradeSwitch{
+		width: 50%;
+		height: 43px;
+		margin: 0px;
+		float: left;
+		overflow-y: scroll;
 	}
 
 Resources
@@ -54,15 +73,35 @@ Resources
     req:(cookies:earned) >= 1000000000
 
 Buttons
-*perfectCookie
-  name:Big Cookie
-  desc:Click for cookies!
-  on click:yield 1 cookie
-  icon:https://raw.githubusercontent.com/CreativeCoder-GitHub/idle-game-maker-test/main/perfectCookie.png
-  no text
-  class:bigButton hasFlares
-  icon class:bigButtonIcon shadowed
-  on click:anim icon wobble
+	*perfectCookie
+	  name:Big Cookie
+	  desc:Click for cookies!
+	  on click:yield 1 cookie
+	  icon:https://raw.githubusercontent.com/CreativeCoder-GitHub/idle-game-maker-test/main/perfectCookie.png
+	  no text
+	  class:bigButton hasFlares
+	  icon class:bigButtonIcon shadowed
+	  on click:anim icon wobble
+	*showAvailUpgr
+	  tag:upgradeSwitcher
+	  class:upgradeSwitch
+	  name:Available Upgrades
+	  onclick:
+	  	hide :Upgrades:owned
+		show :Upgrades:notOwned
+		anim :glow
+	  end
+	  no tooltip
+	*showOwnedUpgr
+	  tag:upgradeSwitcher
+	  class:upgradeSwitch
+	  name:Owned Upgrades
+	  onclick:
+	  	show :Upgrades:owned
+		hide :Upgrades:notOwned
+		anim :glow
+	  end
+	  no tooltip
 
 Buildings
 	*cursor|cursors
@@ -210,6 +249,8 @@ Achievements
     icon:icons[10,14]
 
 Upgrades
+*TEMPLATE
+	on earn:hide this
 	*cursorUpgrade1
 		name:Reinforced index finger
 		desc:The mouse and cursors are <b>twice</b> as efficient.<q><i>"prod prod"</i></q>
