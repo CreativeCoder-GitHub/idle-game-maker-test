@@ -86,7 +86,7 @@ Buttons
 	  tag:upgradeSwitcher
 	  class:upgradeSwitch
 	  name:Available Upgrades
-	  onclick:
+	  on click:
 	  	hide :Upgrades:owned
 		show :Upgrades:notOwned
 		anim :glow
@@ -96,7 +96,7 @@ Buttons
 	  tag:upgradeSwitcher
 	  class:upgradeSwitch
 	  name:Owned Upgrades
-	  onclick:
+	  on click:
 	  	show :Upgrades:owned
 		hide :Upgrades:notOwned
 		anim :glow
