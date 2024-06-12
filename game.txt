@@ -63,11 +63,11 @@ CSS
 
 Resources
   *cookie|cookies
-    name:Cookies
+    name:Cookie|Cookies
     desc:Get as many cookies as you can!
     icon:icons[10,0]
   *sugarlump|sugarlumps
-    name:Sugar lumps
+    name:Sugar lump|Sugar lumps
     desc:Sugar lumps are delicious and may be used as currency for all sorts of things.
     icon:icons[29,14]
     req:(cookies:earned) >= 1000000000
@@ -193,6 +193,24 @@ Achievements
     desc:Have <b>100 cursors</b>.
     req:100 (cursor)
     icon:icons[0,1]
+
+  *1grandma
+    name:Grandma's Cookies
+    desc:Have <b>1 grandma</b>.
+    req:1 (grandma)
+    icon:icons[1,0]
+
+  *2grandma
+    name:Sloppy kisses
+    desc:Have <b>50 grandmas</b>.
+    req:50 (grandmas)
+    icon:icons[1,1]
+
+  *3grandma
+    name:Retirement home
+    desc:Have <b>100 grandmas</b>.
+    req:100 (grandmas)
+    icon:icons[1,2]
 
   *1cps
     name:Casual baking
