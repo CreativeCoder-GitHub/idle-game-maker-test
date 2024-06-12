@@ -10,7 +10,24 @@ Settings
   spritesheet:buildings, 64 by 64, https://orteil.dashnet.org/cookieclicker/img/buildings.png
 
 Layout
-	use default
+	*main
+	  contains:res, buttons
+	  *res
+	    contains:Resources
+	    class:fullWidth
+	  *buttons
+	    contains:Buttons
+	*store
+	  contains:buildings, upgrades
+	  *buildings
+	    contains:BulkDisplay, Buildings
+	    header:Buildings
+	    tooltip origin:left
+	  *upgrades
+	    contains:Upgrades
+	    header:Upgrades
+	    costs:hide
+	    names:hide
 
 CSS
 	.buildingIconSize{
@@ -20,6 +37,9 @@ CSS
 	.shinyIconSize{
 		height: 96px;
 		width: 96px;
+	}
+	#boxUpgrades{
+		top: 43px;
 	}
 
 Resources
