@@ -9,4 +9,4 @@ Link to the game: https://orteil.dashnet.org/igm/?g=https://raw.githubuserconten
 The original game was made by DashNet. The link to the original Cookie Clicker is here: https://orteil.dashnet.org/cookieclicker/
 
 ## Technical Stuff
-There isn't a lot to say a lot at this point. I made 2 debug upgrades called "Godly Cursor" and "Elder Ultimate." Yes, the names aren't very creative but they are just debug upgrades. I also had to resize the big cookie to half its size and uploaded it to this repository to fi tthe sizes in Idle Game Maker. There was probably a better solution but it works.
+There isn't a lot to say a lot at this point. I made 2 debug upgrades called "Godly Cursor" and "Elder Ultimate." Yes, the names aren't very creative but they are just debug upgrades. I also had to resize the big cookie to half its size and uploaded it to this repository to fit the sizes in Idle Game Maker. There was probably a better solution but it works.
