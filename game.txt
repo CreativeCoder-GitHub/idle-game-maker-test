@@ -329,7 +329,7 @@ Upgrades
 		icon:icons[10,9]
 
 Items
-	*chocolateChipCookieItem
+	*chocolateChipCookie
 		name:Chocolate Chip Cookie
 		icon:icons[10,0]
 		cost:100 cookies
@@ -346,5 +346,5 @@ Shinies
 		frequency variation:20
 		on click:yield 50 + (random(cookies:ps * 120,cookies:ps * 300)) cookies
 		movement:growShrink pulse:1 bobVertical:0.5 bobHorizontal:0.5 anywhere
-		class:hasFlares
+		class:hasFlares shinyIconSize
 		icon class:shinyIconSize
