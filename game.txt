@@ -71,6 +71,30 @@ Resources
     desc:Sugar lumps are delicious and may be used as currency for all sorts of things.
     icon:icons[29,14]
     req:(cookies:earned) >= 1000000000
+  *prestige
+    name:Prestige
+    desc:Every 1 prestige grants +1% CpS.
+  *heavenlychips
+    name:Heavenly Chip|Heavenly Chips
+    desc:Use heavenly chips to buy heavenly upgrades.
+    icon:icons[19,7]
+  *goldenCookieClick|goldenCookieClicks
+    name:Golden Cookie Clicks
+    desc:This shows how many golden cookies you have clicked.
+    icon:icons[10,14]
+    req:(goldenCookieClick) > 0
+    always hidden
+  *forfeitedCash
+    always hidden
+  *cookiesBakedAcension
+    name:Cookies Baked this Ascension
+    desc:This shows how many cookies you have baked this acension.
+    icon:icons[10,0]
+
+Includes
+	*include earn %cookies_earned
+		yield %cookies_earned cookies
+		yield %cookies_earned cookiesBakedAcension
 
 Buttons
 	*perfectCookie
@@ -82,6 +106,7 @@ Buttons
 	  class:bigButton hasFlares
 	  icon class:bigButtonIcon shadowed
 	  on click:anim icon wobble
+	  no tooltip
 	*showAvailUpgr
 	  tag:upgradeSwitcher
 	  class:upgradeSwitch
@@ -107,28 +132,28 @@ Buildings
 	*cursor|cursors
 		name:Cursor|Cursors
 		desc:<q><i>"Autoclicks once every 10 seconds."</q></i>
-		on tick:yield 0.1 cookies
+		on tick:[include earn %cookies_earned=0.1]
 		cost:15 cookies
                 icon:buildings[0,0]
 		icon class:buildingIconSize
 	*grandma|grandmas
 		name:Grandma|Grandmas
 		desc:<q><i>"A nice grandma to bake more cookies."</q></i>
-		on tick:yield 1 cookie
+		on tick:[include earn %cookies_earned=1]
 		cost:100 cookies
                 icon:buildings[0,1]
 		icon class:buildingIconSize
 	*farm|farms
 		name:Farm|Farms
 		desc:<q><i>"Grows cookie plants from cookie seeds."</q></i>
-		on tick:yield 8 cookies
+		on tick:[include earn %cookies_earned=8]
 		cost:1100 cookies
                 icon:buildings[0,3]
 		icon class:buildingIconSize
 	*mine|mines
 		name:Mine|Mines
 		desc:<q><i>"Mines out cookie dough and chocolate chips."</q></i>
-		on tick:yield 10 cookies
+		on tick:[include earn %cookies_earned=10]
 		cost:2000 cookies
                 icon:buildings[0,4]
 		icon class:buildingIconSize
@@ -136,44 +161,44 @@ Buildings
 Achievements
   *baketotal1
     name:Wake and bake
-    desc:Bake <b>1 cookie</b>.
-    req:1 (cookies:earned)
+    desc:Bake <b>1 cookie</b> in one ascension.
+    req:1 (cookiesBakedAcension)
     icon:icons[0,5]
 
   *baketotal2
     name:Making some dough
-    desc:Bake <b>1,000 cookies</b>.
-    req:1000 (cookies:earned)
+    desc:Bake <b>1,000 cookies</b> in one ascension.
+    req:1000 (cookiesBakedAcension)
     icon:icons[1,5]
 
   *baketotal3
     name:So baked right now
-    desc:Bake <b>100,000 cookies</b>.
-    req:100000 (cookies:earned)
+    desc:Bake <b>100,000 cookies</b> in one ascension.
+    req:100000 (cookiesBakedAcension)
     icon:icons[2,5]
 
  *baketotal4
     name:Fledgling bakery
-    desc:Bake <b>1 million cookies</b>.
-    req:1000000 (cookies:earned)
+    desc:Bake <b>1 million cookies</b> in one ascension.
+    req:1000000 (cookiesBakedAcension)
     icon:icons[3,5]
 
   *baketotal5
     name:Affluent bakery
-    desc:Bake <b>100 million cookies</b>.
-    req:100000000 (cookies:earned)
+    desc:Bake <b>100 million cookies</b> in one ascension.
+    req:100000000 (cookiesBakedAcension)
     icon:icons[4,5]
 
   *baketotal6
     name:World-famous bakery
-    desc:Bake <b>1 billion cookies</b>.
-    req:1000000000 (cookies:earned)
+    desc:Bake <b>1 billion cookies</b> in one ascension.
+    req:1000000000 (cookiesBakedAcension)
     icon:icons[5,5]
 
   *baketotal7
     name:Cosmic bakery
-    desc:Bake <b>100 billion cookies</b>.
-    req:100000000000 (cookies:earned)
+    desc:Bake <b>100 billion cookies</b> in one ascension.
+    req:100000000000 (cookiesBakedAcension)
     icon:icons[6,5]
 
   *1cursor
@@ -257,13 +282,13 @@ Achievements
   *1goldenclick
     name:Golden cookie
     desc:Click a <b>golden cookie</b>.
-    req:7 (goldCookie:clicks)
+    req:1 (goldenCookieClick)
     icon:icons[10,14]
 
   *7goldenclick
     name:Lucky cookie
     desc:Click <b>7 golden cookies</b>.
-    req:7 (goldCookie:clicks)
+    req:7 (goldenCookieClick)
     icon:icons[10,14]
 
 Upgrades
@@ -314,6 +339,13 @@ Upgrades
 		cost:50000 cookies
 		passive:multiply yield of grandmas by 2
 		icon:icons[1,2]
+	*chocolateChipCookie
+		name:Chocolate Chip Cookie
+		icon:icons[10,0]
+		cost:100 cookies
+		desc:Building modifier +10%.<q><i>This is the cookie you've been clicking this whole time. It looks a bit dented and nibbled on, but it's otherwise good as new.</i></q>
+		passive:multiply yield of :Buildings by 1.1
+		req:
 	*debugUpgrade1
 		name:Godly Cursor
 		desc:The mouse and cursors are <b>super</b> efficient. <q><i>"A cursor hand-crafted by the creator of the game."</i></q>
@@ -328,23 +360,13 @@ Upgrades
 		passive:multiply yield of grandmas by 999
 		icon:icons[10,9]
 
-Items
-	*chocolateChipCookie
-		name:Chocolate Chip Cookie
-		icon:icons[10,0]
-		cost:100 cookies
-		desc:Building modifier +1%.<q><i>This is the cookie you've been clicking this whole time. It looks a bit dented and nibbled on, but it's otherwise good as new.</i></q>
-		passive:multiply yield of cursors by 1.1
-		passive:multiply yield of grandmas by 1.1
-		passive:multiply yield of farms by 1.1
-		passive:multiply yield of mines by 1.1
-
 Shinies
 	*goldCookie
 		icon:https://orteil.dashnet.org/cookieclicker/img/goldCookie.png
 		frequency:120
 		frequency variation:20
 		on click:yield 50 + (random(cookies:ps * 120,cookies:ps * 300)) cookies
+		on click yield 1 goldenCookieClick
 		movement:growShrink pulse:1 bobVertical:0.5 bobHorizontal:0.5 anywhere
 		class:hasFlares shinyIconSize
 		icon class:shinyIconSize
