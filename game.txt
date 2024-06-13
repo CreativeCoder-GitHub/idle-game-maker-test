@@ -24,7 +24,7 @@ Layout
 	    header:Buildings
 	    tooltip origin:left
 	  *upgrades
-	    contains:Upgrades
+	    contains:Upgrades, Items
 	    header:Upgrades
 	    costs:hide
 	    names:hide
@@ -327,6 +327,18 @@ Upgrades
 		cost:1 cookie
 		passive:multiply yield of grandmas by 999
 		icon:icons[10,9]
+
+Items
+	*chocolateChipCookieItem
+		name:Chocolate Chip Cookie
+		icon:icons[10,0]
+		cost:100 cookies
+		desc:Building modifier +1%.<q><i>This is the cookie you've been clicking this whole time. It looks a bit dented and nibbled on, but it's otherwise good as new.</i></q>
+		passive:multiply yield of cursors by 1.1
+		passive:multiply yield of grandmas by 1.1
+		passive:multiply yield of farms by 1.1
+		passive:multiply yield of mines by 1.1
+
 Shinies
 	*goldCookie
 		icon:https://orteil.dashnet.org/cookieclicker/img/goldCookie.png
