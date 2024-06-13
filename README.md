@@ -1,5 +1,5 @@
 # Idle Game Maker Test
-## **ABANDONDED PROJECT**
+## **ABANDONDED PROJECT!!!**
 I have stopped working on this repository because I believe I have played around enough to make my own original game.
 
 ## Intro
