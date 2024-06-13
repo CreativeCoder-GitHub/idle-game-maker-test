@@ -93,8 +93,8 @@ Resources
 
 Includes
 	*include earn %cookies_earned
-		yield %cookies_earned cookies
-		yield %cookies_earned cookiesBakedAcension
+		yield [%cookies_earned] cookies
+		yield [%cookies_earned] cookiesBakedAcension
 
 Buttons
 	*perfectCookie
@@ -200,6 +200,12 @@ Achievements
     desc:Bake <b>100 billion cookies</b> in one ascension.
     req:100000000000 (cookiesBakedAcension)
     icon:icons[6,5]
+
+  *baketotal8
+    name:Galactic bakery
+    desc:Bake <b>1 trillion cookies</b> in one ascension.
+    req:1000000000000 (cookiesBakedAcension)
+    icon:icons[7,5]
 
   *1cursor
     name:Click
