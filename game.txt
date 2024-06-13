@@ -93,8 +93,9 @@ Resources
 
 Includes
 	*include earn %cookies_earned
-		yield [%cookies_earned] cookies
-		yield [%cookies_earned] cookiesBakedAcension
+		yield %cookies_earned cookies
+		yield %cookies_earned cookiesBakedAcension
+	end
 
 Buttons
 	*perfectCookie
